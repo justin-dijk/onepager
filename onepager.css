@@ -1,0 +1,83 @@
+body{
+
+    background: linear-gradient(
+        to right,
+        white 0%,
+        white 50%,
+        red 50%,
+        red 100%
+      );
+}
+
+#logo{
+
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+}
+
+#bold_text{
+
+    grid-column: 2/6;
+    grid-row: 4/5;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+#text{
+
+    grid-column: 2/8;
+    grid-row: 5/6;
+    font-weight: 500;
+    font-size: large;
+
+}
+
+#app_store{
+
+    grid-column: 4/6;
+    grid-row: 6/7;
+
+}
+
+#play_store {
+
+    grid-column: 2/4;
+    grid-row: 6/7;
+
+}
+
+#small_text{
+
+    grid-column: 2/7;
+    grid-row: 8/9;
+    color: rgb(168, 158, 158);
+
+}
+
+#phone{
+
+    grid-column: 10/11;
+    grid-row: 2/10;
+
+}
+
+#iphone_image{
+
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+
+body {   
+
+    display: grid;
+
+    grid-template-columns: 8vw 6vw 6vw 6vw 6vw 6vw 6vw 6vw 15vw 20vw auto;
+
+    grid-template-rows: 10vh 5vh 15vh 10vh 10vh 10vh 10vh 10vh 10vh auto;
+
+}
